@@ -11,10 +11,9 @@ print(visi[skaits-1])
 
 skaitlis=str(input("Ievadi skaitli: "))
 summa=int(skaitlis)
-for i in range(0,len(skaitlis)):
+for i in range(0,len(skaitlis)-1):
     jauns=skaitlis[1:]
-    summa=int(jauns)
+    summa+=int(jauns)
     skaitlis=skaitlis[1:]
 print(summa)
 
-#nestrādā un es nezinu kāpēc
